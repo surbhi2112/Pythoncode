@@ -1,0 +1,9 @@
+class solution:
+    def indexvalue(self,arr,n: int)-> int:
+       a=[]
+       for i in range (n):
+         if arr[i] == i+1 :
+           a.append(i+1)
+       return a
+            
+       
